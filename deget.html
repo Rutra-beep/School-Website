@@ -1,0 +1,115 @@
+<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">   
+    <link rel="stylesheet" href="./deget.css">   
+    <script src="https://kit.fontawesome.com/1fcf4e0319.js" crossorigin="anonymous"></script>
+    <title>Gjergj Canco</title>
+</head>
+<body>
+
+    <nav>
+        <div class="navbar-logo"><h1><a href="./index.html">Gjergj Canco</a></h1></div>
+        <div class="btn">☰</div>
+        <ul class="navlinks">
+            <a href="./index.html">Home</a>
+            <div class="deget-link">
+                <a href="#deget-container">Deget</a>
+                <div class="link-show">
+                    <a href="#">Teknologji informacioni dhe komunikimi</a>
+                    <a href="#">Elektroteknike e integruar me elektronike</a>
+                </div>
+            </div>
+            <div class="rreth-nesh">
+                <a href="#rreth-nesh">Rreth shkolles</a>
+                <div class="link-show">
+                    <a href="#">Stafi</a>
+                    <a href="#">Kontakt</a>
+                </div>
+            </div>
+            <a id="na-kontaktoni" href="#footer">Na Kontaktoni</a>
+            <!-- <div id="btn"><i class="fa fa-times"></i></div> -->
+        </ul>
+    </nav>
+    <!-- Mobile overlay -->
+    <div class="overlay"></div>
+    <div class="mobile-navbar">
+        <ul>
+            <li><a class="link" href="./index.html">Home</a></li>
+            <li><a class="link" href="#deget-container">Deget</a></li>
+            <li><a class="link" href="#rreth-nesh">Rreth Nesh</a></li>
+            <li><a class="link" href="#footer">Na Kontaktoni</a></li>
+        </ul>
+    </div>
+
+
+    <div class="drejtimet">
+        <h1 class="drejtimet-title">Drejtimet</h1>
+        <div class="deget-container">
+            <h1>Shkolla Gjergj Canco ofron 2 drejtime mësimore dhe 8 profile mësimore.</h1>
+            <div class="deget-section">
+                <div class="dega">
+                    <img src="./Images/dega2.png" alt="tik">
+                    <h2>TEKNOLOGJI INFORMACIONI DHE KOMUNIKIMI</h2>
+                    <a href="./dega-tik.html">Lexo me shume</a>
+                </div>
+                <div class="dega">
+                    <img src="./Images/dega1.png" alt="elektronike">
+                    <h2>ELEKTROTEKNIKË E INTEGRUAR ME ELEKTRONIKË</h2>
+                    <a href="#">Lexo me shume</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer id="footer">
+        <div class="kutia">
+            <div class="footer-container">
+                <!-- Column 1 -->
+                <div class="footer-col">
+                    <h4>Shkolla</h4>
+                    <ul>
+                        <li><a href="#rreth-nesh">rreth shkolles</a></li>
+                        <li><a href="#deget-container">deget</a></li>
+                        <li><a href="#">projektet</a></li>
+                        <li><a href="#">rregullat</a></li>
+                    </ul>
+                </div>
+                <!-- Column 2 -->
+                <div id="regjistrohuni" class="footer-col">
+                    <h4>Regjistrohuni</h4>
+                    <form >
+                        <textarea  name="text" id="textarea" cols="30" rows="10">Arsyeja pse zgjodhet kete shkolle:</textarea>
+                        <button onclick="alert('Thank you for applying!')">Submit</button>
+                    </form>
+                </div>
+                <!-- Column 3 -->
+                <div class="socials footer-col">
+                    <h4>na ndiqni</h4>
+                    <a href="https://mail.google.com/" class="email">teknikeelektrike@hotmail.com</a>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/GjergjiCanco"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/gjergj_canco_shkolla/"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <!-- Column 4 -->
+             <div class="designed">
+                 <h3>Designed by: Artur Kaceli</h3>
+             </div>
+            </div>
+        </div>
+   </footer>
+
+
+    <div class="copyright">
+        <p>© Artur 2022</p>
+    </div>
+  <script src="./script.js"></script>
+</body>
+</html>
